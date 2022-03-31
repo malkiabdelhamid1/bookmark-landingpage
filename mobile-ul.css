@@ -1,0 +1,40 @@
+
+#ul-for-phones{
+    width: 100%;
+    display: none;
+}
+#ul-for-phones .on-buttons{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: rgba(20, 20, 20, 0.651);
+    font-size: 17px;
+    border-bottom: solid 3px rgb(255, 81, 0);
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+#ul-for-phones .off-buttons{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+    color: rgba(20, 20, 20, 0.651);
+    font-size: 17px;
+    border-bottom: solid 3px transparent;
+    padding-bottom: 3%;
+    margin-top: 5%;
+}
+#on-buttons2,#on-buttons3{
+    display: none;
+}
+#off-buttons1{
+    display: none;
+}
+#ul-for-phones hr{
+    margin-top: 0px;
+}
+@media(max-width:500px){
+    #ul-for-phones{
+        width: 100%;
+        display: block;
+    }
+}
